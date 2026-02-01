@@ -80,7 +80,7 @@ for i, rate in enumerate(DEPHASING_RATES):
     data = simulate_ensemble(rate)
     plt.plot(data, linewidth=2.5, color=colors[i], label=labels[i])
 
-plt.title(f"PROOF: Noise Beats Quantum (Disorder={DISORDER_STRENGTH})")
+plt.title(f"Environment-Assisted Quantum Transport (ENAQT) in Disordered Chain (W={DISORDER_STRENGTH})")
 plt.xlabel("Time (fs)")
 plt.ylabel("Transport Efficiency")
 plt.legend()
