@@ -16,5 +16,6 @@ Run the simulation:
 
 ## Author
 **Mohammad Nazeer**
+
 Independent Researcher
 Physics & Quantum Information
